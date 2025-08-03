@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+    <header class="py-6 shadow-sm">
+        <div class="max-w-7xl mx-auto flex items-center px-4 gap-10">
+            <div class="flex flex-1">
+                <img src="./assets/logo (3).png" alt="Logo">
+            </div>
+            <nav class="hidden md:flex gap-10">
+                <a href="" class="hover:text-blue-500">Asosiy</a>
+                <a href="" class="hover:text-blue-500">Kursimiz</a>
+                <a href="" class="hover:text-blue-500">Blog</a>
+                <a href="" class="hover:text-blue-500">Biz haqimizda</a>
+                <a href="" class="hover:text-blue-500">Bog`lanish</a>
+            </nav>
+            <div class="flex gap-10">
+                <button><img src="./assets/fi_search.png" alt="Search"></button>
+                <button class="hidden md:block">Eng</button>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded">Kirish -></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-6xl font-bold max-w-3xl mb-5 m-auto">
+                <span class="text-blue-500">Dasturlash</span> biz bilan qulay muhitda o‘rganing
+            </h1>
+            <p class="m-auto text-md text-gray-400 max-w-3xl">
+                Khan Academy - bu siz izlagan akademiya bo’lib, unda siz juda qisqa muddatda istalgan dasturlash sohasida Junior darajasiga chiqa olasiz!
+            </p>
+            <div class="flex justify-center gap-12 mt-20 flex-wrap">
+                <button class="cursor-pointer bg-gradient-to-b from-blue-600 to-blue-700 shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-12 py-4 rounded-xl border-2 border-slate-500 text-white font-medium group">
+                    <div class="relative overflow-hidden">
+                        <p class="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] flex gap-2 justify-center">
+                            Boshlash <img src="./assets/u_arrow-right.png" alt="Arrow">
+                        </p>
+                        <p class="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">Boshlash</p>
+                    </div>
+                </button>
+                <button type="submit" class="flex justify-center gap-2 items-center shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-black hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-12 py-4 overflow-hidden border-2 rounded-xl group">
+                    Explore
+                    <img src="./assets/akar-icons_github-fill.png" alt="GitHub">
+                </button>
+            </div>
+            <div class="mt-20 mb-32 w-[346px] md:w-[346px] w-full max-w-[346px] mx-auto px-6 py-6 rounded-md flex flex-col md:flex-row gap-3 justify-center items-center bg-green-100 text-xs">
+                <img class="w-12 h-12" src="./assets/icon (3).png" alt="Award Icon">
+                <div>
+                    <p class="font-bold text-black">GitNation React Award</p>
+                    <h5 class="text-2xl font-bold text-green-600 md:text-xl ">Most Impactful Project to the Community</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-2 mt-11 m-auto">Kam vaqtda <span class="text-blue-500">ko‘proq o‘rganish</span></h2>
+            <p class="py-10 m-auto text-md text-gray-400 max-w-3xl">Khan akademiyasida juda qisqa muddatda istalgan dasturlash sohasida Junior darajasiga chiqa olasiz</p>
+            <div class="flex gap-20 justify-center items-center flex-wrap">
+                <img src="./assets/image (6).png" alt="Learning Image">
+                <div class="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white p-4">
+                    <img class="py-3" src="./assets/image (5).png" alt="Property Image">
+                    <div class="flex items-center mb-2">
+                        <span class="bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded mr-2">PLUS</span>
+                        <span class="text-gray-600 text-xs font-semibold">VERIFIED</span>
+                        <span class="text-gray-400 mx-1">•</span>
+                        <span class="text-gray-600 text-xs">CAPE TOWN</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-1">Modern, Chic Penthouse</h3>
+                    <p class="text-gray-800 font-semibold mb-3">$119<span class="text-gray-600 font-normal">/night</span></p>
+                    <div class="flex items-center">
+                        <div class="flex mr-2">
+                            <!-- Star Rating -->
+                            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <!-- Repeat SVG for stars -->
+                            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <span class="text-gray-700 text-sm">4.5 <span class="text-gray-500">(190)</span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="max-w-7xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-2 mt-10">Bizning ustun <span class="text-blue-500"> jihatlarimiz</span></h2>
+                <p class="py-4 m-auto text-md text-gray-400 max-w-3xl">Quyida bizning ustun jihatlarimiz bilan tanishing</p>
+                <div class="flex gap-4 items-center justify-center mt-10 mb-7 flex-wrap">
+                    <div class="flex flex-col gap-4 items-center">
+                        <img src="./assets/image (7).png" alt="Feature Image 1">
+                        <img src="./assets/image 2.png" alt="Feature Image 2">
+                    </div>
+                    <img src="./assets/image 3.png" alt="Feature Image 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- Qism 1: Statistika va sarlavha -->
+        <section class="bg-blue-600 text-white py-12">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h1 class="text-3xl md:text-4xl font-bold mb-2">Shiddat bilan o‘sayotgan <br />Khan Academy</h1>
+                <p class="text-sm md:text-base text-blue-100 mb-8">
+                    We're dedicated to improving the experience and performance of Webbrain UI
+                </p>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                    <div class="flex flex-col items-center border-l border-yellow-400 pl-4">
+                        <p class="text-2xl font-semibold">1.2M</p>
+                        <p class="text-sm text-blue-100">Download per month</p>
+                    </div>
+                    <div class="flex flex-col items-center border-l border-yellow-400 pl-4">
+                        <p class="text-2xl font-semibold">25.1K</p>
+                        <p class="text-sm text-blue-100">GitHub stars</p>
+                    </div>
+                    <div class="flex flex-col items-center border-l border-yellow-400 pl-4">
+                        <p class="text-2xl font-semibold">14</p>
+                        <p class="text-sm text-blue-100">Core contributors</p>
+                    </div>
+                    <div class="flex flex-col items-center border-l border-yellow-400 pl-4">
+                        <p class="text-2xl font-semibold">6.2K</p>
+                        <p class="text-sm text-blue-100">Discord members</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Qism 2: Jamoa -->
+        <section class="bg-gray-50 py-16">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+                    Bizning professional <span class="text-blue-600">jamoamiz</span>
+                </h2>
+                <p class="text-gray-500 mb-6">A collection of websites and projects built with Webbrain UI</p>
+                <button class="flex gap-2 m-auto bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition mb-10">
+                    Ko‘proq ko‘rish <img src="./assets/u_arrow-right.png" alt="Arrow">
+                </button>
+
+                <!-- Team Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                        <img src="./assets/unsplash_XcZ78DlXtes.png" alt="Cameron" class="w-full h-56 object-cover" />
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Cameron Williamson</h3>
+                            <p class="text-gray-500 text-sm">Backend Developer</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                        <div class="relative">
+                            <img src="./assets/unsplash_KIPqvvTOC1s.png" alt="Brooklyn" class="w-full h-56 object-cover" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Brooklyn Simmons</h3>
+                            <p class="text-gray-500 text-sm">Frontend Developer</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                        <img src="./assets/unsplash_bBuUjB98PPY.png" alt="Savannah" class="w-full h-56 object-cover" />
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Savannah Nguyen</h3>
+                            <p class="text-gray-500 text-sm">UX/UI Designer</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                        <img src="./assets/unsplash_4_QFycgpC4c.png" alt="Darlene" class="w-full h-56 object-cover" />
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Darlene Robertson</h3>
+                            <p class="text-gray-500 text-sm">Copywriter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#006CE3] py-20 px-4 text-white text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Hamkorlik qilishga tayyormisiz?
+                </h2>
+                <p class="text-sm md:text-base text-white/80 mb-10">
+                    Our maintainers devote their time, effort, and heart to ensure Webbrain UI keeps getting better. Support us by donating to our collective.
+                </p>
+
+                <!-- Open Collective Cards -->
+                <div class="space-y-4 mb-12">
+                    <div class="bg-white text-black flex justify-between items-center px-6 py-4 rounded-xl shadow-lg max-w-xl mx-auto">
+                        <div class="flex items-center gap-4">
+                            <img src="https://opencollective.com/opencollective/logo.png" alt="Open Collective" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold">Open Collective</h3>
+                                <p class="text-sm text-gray-500">Sponsor the Webbrain UI maintainers</p>
+                            </div>
+                        </div>
+                        <a href="#" class="bg-[#006CE3] hover:bg-[#0058b3] text-white px-4 py-2 rounded-md font-medium text-sm">Sponsor</a>
+                    </div>
+
+                    <!-- Duplicate Card -->
+                    <div class="bg-white text-black flex justify-between items-center px-6 py-4 rounded-xl shadow-lg max-w-xl mx-auto">
+                        <div class="flex items-center gap-4">
+                            <img src="https://opencollective.com/opencollective/logo.png" alt="Open Collective" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold">Open Collective</h3>
+                                <p class="text-sm text-gray-500">Sponsor the Webbrain UI maintainers</p>
+                            </div>
+                        </div>
+                        <a href="#" class="bg-[#006CE3] hover:bg-[#0058b3] text-white px-4 py-2 rounded-md font-medium text-sm">Sponsor</a>
+                    </div>
+                </div>
+
+                <!-- Organization Sponsors -->
+                <div class="mb-10">
+                    <h4 class="text-sm font-semibold tracking-wide mb-4">ORGANIZATION SPONSORS</h4>
+                    <div class="flex justify-center gap-6 flex-wrap">
+                        <!-- Google logos -->
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" class="w-12 h-12 rounded-full bg-white p-1" alt="Sponsor Logo">
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" class="w-12 h-12 rounded-full bg-white p-1" alt="Sponsor Logo">
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" class="w-12 h-12 rounded-full bg-white p-1" alt="Sponsor Logo">
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" class="w-12 h-12 rounded-full bg-white p-1" alt="Sponsor Logo">
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" class="w-12 h-12 rounded-full bg-white p-1" alt="Sponsor Logo">
+                    </div>
+                </div>
+
+                <!-- Individual Sponsors -->
+                <div>
+                    <h4 class="text-sm font-semibold tracking-wide mb-4">INDIVIDUAL SPONSORS</h4>
+                    <div class="flex justify-center gap-6 flex-wrap">
+                        <!-- Person avatars (demo images) -->
+                        <img src="./assets/avatar (2).png" class="w-12 h-12 rounded-full border-2 border-white" alt="Avatar">
+                        <img src="./assets/avatar (3).png" class="w-12 h-12 rounded-full border-2 border-white" alt="Avatar">
+                        <img src="./assets/avatar (4).png" class="w-12 h-12 rounded-full border-2 border-white" alt="Avatar">
+                        <img src="./assets/avatar (5).png" class="w-12 h-12 rounded-full border-2 border-white" alt="Avatar">
+                        <img src="./assets/avatar (6).png" class="w-12 h-12 rounded-full border-2 border-white" alt="Avatar">
+                        <img src="./assets/avatar (8).png" class="w-12 h-12 rounded-full border-2 border-white" alt="Avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: Bizning loyihalar -->
+        <section class="py-20 px-4 text-center">
+            <div class="max-w-4xl mx-auto">
+                <p class="text-sm font-medium text-blue-500 uppercase">Premium Components</p>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">
+                    Bizning <span class="text-blue-600">loyihalar</span>
+                </h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-6">
+                    Beautiful and responsive React components to build your application or marketing pages quicker.
+                </p>
+                <a href="#" class="inline-flex items-center gap-2 px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md shadow-md text-sm font-medium transition">
+                    Batafsil →
+                </a>
+            </div>
+
+            <!-- Loyiha Rasmlari -->
+            <div class="mt-12 flex justify-center gap-6 flex-wrap">
+                <img src="./assets/1 (1).png" alt="Project 1" class="w-[300px] rounded-xl shadow-lg border">
+                <img src="./assets/2.png" alt="Project 2" class="w-[340px] rounded-xl shadow-xl border-2 border-blue-300">
+                <img src="./assets/3.png" alt="Project 3" class="w-[300px] rounded-xl shadow-lg border">
+            </div>
+        </section>
+
+        <!-- SECTION: Biz kuchlilarni tayyorlaymiz -->
+        <section class="bg-gray-50 py-20 px-4 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Biz <span class="text-blue-600">kuchlilarni</span> tayyorlaymiz!
+                </h2>
+                <p class="text-gray-600 mb-6">
+                    Beautiful and responsive React components to build your application or marketing pages quicker.
+                </p>
+                <a href="#" class="inline-flex items-center gap-2 px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md shadow-md text-sm font-medium transition">
+                    Biz haqimizda →
+                </a>
+            </div>
+
+            <!-- Footer background chiziqlari (dekorativ) -->
+            <div class="mt-12 opacity-10">
+                <svg class="mx-auto w-full max-w-4xl" viewBox="0 0 500 20" fill="none">
+                    <rect x="0" y="10" width="3" height="10" fill="#000" />
+                    <rect x="10" y="5" width="3" height="15" fill="#000" />
+                    <rect x="20" y="0" width="3" height="20" fill="#000" />
+                    <!-- ... boshqa dekorlar uchun takrorlang -->
+                </svg>
+            </div>
+        </section>
+
+        <!-- Discord Chaqaruv Qismi -->
+        <section class="bg-blue-600 text-white py-10 px-4 text-center">
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex items-center gap-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord" class="w-10 h-10">
+                    <div class="text-left">
+                        <h3 class="text-xl font-semibold">Biz bilan bog‘lanish</h3>
+                        <p class="text-sm text-blue-100">Feel free to ask questions, reports, issues and meet new people</p>
+                    </div>
+                </div>
+                <a href="#" class="bg-white text-blue-600 px-5 py-2 rounded-md font-medium hover:bg-blue-100 transition">
+                    #KhanAcademyga qo‘shilish
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-50 text-gray-700 py-16 px-4">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
+
+                <!-- Logo & Socials -->
+                <div class="space-y-3">
+                    <div>
+                        <img src="./assets/logo (3).png" alt="Khan Academy">
+                    </div>
+                    <p class="text-sm text-gray-500">Istiklal street, Tashkent,<br> Uzbekistan, 200136</p>
+                    <div class="flex space-x-3 pt-2">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" class="w-6 h-6" alt="Facebook" /></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="w-6 h-6" alt="Instagram" /></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" class="w-6 h-6" alt="Twitter" /></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="w-6 h-6" alt="LinkedIn" /></a>
+                    </div>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="font-semibold mb-3">Support</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-blue-600">Team</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Careers</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Blog</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Security</a></li>
+                    </ul>
+                </div>
+
+                <!-- Product -->
+                <div>
+                    <h4 class="font-semibold mb-3">Product</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-blue-600">Clinical Board</a></li>
+                        <li><a href="#" class="hover:text-blue-600">News</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Events</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Security -->
+                <div>
+                    <h4 class="font-semibold mb-3">Security</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-blue-600">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Terms & Conditions</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Events</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Subscribe -->
+                <div>
+                    <h4 class="font-semibold mb-3">Subscribe</h4>
+                    <p class="text-sm text-gray-500 mb-4">Subscribe to get the latest news from us</p>
+                    <form class="flex items-center bg-white rounded-md shadow-md overflow-hidden">
+                        <input type="email" placeholder="hello@gmail.com" class="px-4 py-2 text-sm w-full focus:outline-none" />
+                        <button type="submit" class="bg-blue-600 p-2">
+                            <img src="./assets/fa-brands_telegram-plane.png" alt="Send" class="w-5 h-5">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
